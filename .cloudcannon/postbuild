@@ -1,8 +1,15 @@
+# Clean out an existing git directory for a fresh clone.
 rm -rf test
+
+# Clone the repository and move into the directory
 git clone https://github.com/bglw/test.git
 cd test
-git init
+
+# Test moving between branches
 cat README.md
 git checkout test
 cat README.md
+
+# Move back to the root so the next step
+# in the build pipeline works correctly
 cd ../
