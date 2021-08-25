@@ -4,3 +4,4 @@ git init
 cat README.md
 git checkout test
 cat README.md
+cd ../
