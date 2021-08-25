@@ -1,3 +1,4 @@
+rm -rf test
 git clone https://github.com/bglw/test.git
 cd test
 git init
