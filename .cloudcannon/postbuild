@@ -6,9 +6,9 @@ git clone https://github.com/bglw/test.git
 cd test
 
 # Test moving between branches
-cat README.md
+echo $(cat README.md)
 git checkout test
-cat README.md
+echo $(cat README.md)
 
 # Move back to the root so the next step
 # in the build pipeline works correctly
