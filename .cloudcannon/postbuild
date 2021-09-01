@@ -13,5 +13,4 @@
 # Move back to the root so the next step
 # in the build pipeline works correctly
 # cd ../
-# ./pagebreak
-ls public
+./pagebreak -s ./public -o ./public
