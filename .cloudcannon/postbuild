@@ -1,17 +1,17 @@
 # Clean out an existing git directory for a fresh clone.
-rm -rf test
+# rm -rf test
 
 # Clone the repository and move into the directory
-git clone https://github.com/bglw/test.git
-cd test
+# git clone https://github.com/bglw/test.git
+# cd test
 
 # Test moving between branches
-echo $(cat README.md)
-git checkout test
-echo $(cat README.md)
+# echo $(cat README.md)
+# git checkout test
+# echo $(cat README.md)
 
 # Move back to the root so the next step
 # in the build pipeline works correctly
-cd ../
+# cd ../
 # ./pagebreak
-ls
+ls public
