@@ -2,7 +2,7 @@
 	<article class="content">
 		<div>{{ .Content }}</div>
 
-		<ol class="post-list">
+		<ol class="post-list" data-pagebreak="1">
 			{{ range .Paginator.Pages }}
 				{{ .Render "summary" }}
 			{{ end }}
